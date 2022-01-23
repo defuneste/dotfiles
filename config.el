@@ -55,6 +55,9 @@
 
 (setq
 projectile-project-search-path '("~/Documents/")
- )
+)
+;; I am a beginner so I added menu
+(menu-bar-mode 1)
 
+;; loading my conf for major mode
 (load! "+ess")

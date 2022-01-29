@@ -30,7 +30,8 @@
 ;; If you use `org' and don't want your org files in the default location below,
 ;; change `org-directory'. It must be set before org loads!
 (setq org-directory "~/org/")
-
+;; roam directory
+(setq org-roam-directory "~/org/roam/")
 ;; This determines the style of line numbers in effect. If set to `nil', line
 ;; numbers are disabled. For relative line numbers, set this to `relative'.
 (setq display-line-numbers-type t)
@@ -56,8 +57,8 @@
 (setq
 projectile-project-search-path '("~/Documents/")
 )
-;; I am a beginner so I added menu
-(menu-bar-mode 1)
+;; I am a beginner so I am going backward/forward removing menu bar
+;;(menu-bar-mode 1)
 
 ;; loading my conf for major mode
 (load! "+ess")

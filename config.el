@@ -61,4 +61,5 @@ projectile-project-search-path '("~/Documents/")
 ;;(menu-bar-mode 1)
 
 ;; loading my conf for major mode
-(load! "+ess")
+(load! "+ess.el")
+(load! "+org.el")

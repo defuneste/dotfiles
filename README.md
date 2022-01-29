@@ -13,9 +13,9 @@ I mainly use ESS + org.
 - Videos tutorial from Rainer König: https://www.youtube.com/playlist?list=PLVtKhBrRV_ZkPnBtt_TD1Cs9PJlU0IIdE
 - Vidéos on Doom Emacs from Zaiste programming : https://www.youtube.com/playlist?list=PLhXZp00uXBk4np17N39WvB80zgxlZfVwj
 
-## dependencies
+## Dependencies
 
-Here I will list some dependencies I had to install. This is always need to be adjusted depending of what is already on your system.
+Here I will list some dependencies I had to install. This will always be in need to be adjusted depending of what is already on your system.
 
 ### [Vterm](https://github.com/akermu/emacs-libvterm) (an improvement from eterm even if eterm do the job): 
 
@@ -25,3 +25,5 @@ I also added [shellcheck](https://github.com/koalaman/shellcheck) (I am not sure
 ### ORG
 
 I already had Latex but still needed `dvipng` [see](https://www.ctan.org/pkg/dvipng)
+
+Using org.roam I also needed to install [Graphiz](https://graphviz.org/)
